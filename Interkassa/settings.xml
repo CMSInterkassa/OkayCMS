@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Интеркасса 2.0
+	</name>
+	<settings>
+		<variable>cashbox_id</variable>
+		<name>Идентификатор кассы</name>
+	</settings>
+	<settings>
+		<variable>secret_key</variable>
+		<name>Секретный ключ</name>
+	</settings>
+	<settings>
+		<variable>test_key</variable>
+		<name>Тестовый ключ</name>
+	</settings>
+	<settings>
+		<name>Тестовый режим</name>
+		<variable>test_mode</variable>
+		<options>
+			<value>1</value>
+			<name>Да</name>
+		</options>
+		<options>
+			<value>0</value>
+			<name>Нет</name>
+		</options>
+	</settings>
+	<settings>
+		<name>Вкл. API</name>
+		<variable>enableAPI</variable>
+		<options>
+			<value>1</value>
+			<name>Да</name>
+		</options>
+		<options>
+			<value>0</value>
+			<name>Нет</name>
+		</options>
+	</settings>
+	<settings>
+		<variable>api_id</variable>
+		<name>Идентификатор API</name>
+	</settings>
+	<settings>
+		<variable>api_key</variable>
+		<name>API ключ</name>
+	</settings>
+</module>
